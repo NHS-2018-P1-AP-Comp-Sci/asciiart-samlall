@@ -1,27 +1,71 @@
-/**
- * Unit 1 Project
- * 
- * In this project you have the opportunity to create a piece of artwork using ASCII 
- * (American Standard Code for Information Interchange). Using the already created file 
- * named `ASCIIArt.java` write a program that outputs your artwork to the console. 
- * The goal of this project is to use ONLY what we have learned in Unit 1 to create 
- * anything you would like so be creative (and school appropriate). Artwork must also have a caption describing what it's depicting.  
- * 
- * For those of you who have dabbled in coding before, try to contain your code to 
- * just what we have discussed in this unit.  
- * 
- * @author Mr. Rasmussen 
- *
- */
-
-// YOU CODE HERE :) 
 
 public class ASCIIArt {
-	public static void main (String [] args) {
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		bearPile();
+	}
+	public static void ears() {
+		System.out.println("                        +-------/    \\/   \\");
+		System.out.println("");
+	}
+	public static void forehead() {
+		System.out.println("                   /                         |       ----+/-----------\\");
+		System.out.println("");
+	}
+	public static void eye() {
+		System.out.println("           ____/\\ o                       >                 \\                \\       -------------------------\\");
+		System.out.println("");
+	}
+	public static void mouth1() {
+		System.out.println("        |            |        	 ///                      |              |                                            \\");
+		System.out.println("");
+	}
+	public static void mouth2() {
+		System.out.println("          \\ _______/    ||////                          /                \\                                              \\");
+		System.out.println("");
+	}
+	public static void chest() {
+		System.out.println("                   \\  ////                        /                     |                                                  \\");
+		System.out.println("");
+		System.out.println("                       \\                         /                         |                                \\  \\           \\");
+		System.out.println("");
+		System.out.println("                             \\                /                             /                              \\\\|/             |");
+		System.out.println("");
+	}
+	public static void stomach() {
+		System.out.println("                                  \\         |                           |\\\\\\                      //////|||/                |");
+		System.out.println("");
+		System.out.println("                                      |       |                            \\\\\\\\\\\\\\\\\\\\\\||||||||////////                     |");
+		System.out.println("");
+		System.out.println("                                      \\         \\                         /\\\\\\\\\\\\\\||||||//////////|                        |");
+		System.out.println("");
+		System.out.println("                                            \\           \\                   /  \\\\||///////////	          |                /");
+		System.out.println("");
+	}
+	public static void feet() {
+		System.out.println("                                                  |  |	            /                      |                 \\             |");
+		System.out.println("");
+		System.out.println("                                               __    /	|         /                        \\                | \\            |");
+		System.out.println("");
+		System.out.println("                                            |        /           \\                        /                  |/            |	");
+		System.out.println("");
+		System.out.println("                                              -------\\__________/                          \\---------------/\\___________/");
+		System.out.println("");
+	}
+	public static void oneBear() {
+		ears();
+		forehead();
+		eye();
+		mouth1();
+		mouth2();
+		chest();
+		stomach();
+		feet();
+	}
+	public static void bearPile() {
+		oneBear();
+		oneBear();
+		oneBear();
 	}
 }
